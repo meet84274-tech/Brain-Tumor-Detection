@@ -20,7 +20,7 @@ def play_audio(file_path):
     pygame.mixer.music.play()
 
 import streamlit as  st
-st.title("🎗️Brain Tumour Predictor 🎗️")
+st.title("🎗️Brain Tumour Predictor🎗️")
 
 st.markdown("### This is a web application that predicts whether a brain MRI scan has a tumour or not using deep learning models.")
 tumor_model=tf.keras.models.load_model('Brain_tumor_main.h5')
